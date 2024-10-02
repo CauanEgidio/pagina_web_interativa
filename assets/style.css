@@ -11,6 +11,10 @@ body {
 
 #container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 3rem;
 }
 
 .cartao {
@@ -58,7 +62,7 @@ body {
 }
 
 .cartao:hover .cartao__conteudo {
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
 
 .cartao__conteudo__pergunta,
@@ -72,33 +76,6 @@ body {
 .cartao__conteudo__resposta {
     transform: rotateY(180deg)
 }
-
-
-
-
-
-
-
-
-
-footer p {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     background-color: black;
