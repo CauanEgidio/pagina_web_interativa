@@ -61,7 +61,7 @@ body {
     font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
@@ -74,7 +74,8 @@ body {
 }
 
 .cartao__conteudo__resposta {
-    transform: rotateY(180deg)
+    transform: rotateY(180deg);
+    background-color: rgba(0, 244, 192, 0.2);
 }
 
 footer {
